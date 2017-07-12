@@ -1,0 +1,232 @@
+a{
+    text-decoration: none!important;
+}
+.border_none{
+    border: none;
+}
+/*顶部*/
+.top{
+    background-color: #1f262e;line-height: 37px;border-bottom: 1px solid #3c434b;color: #6e7275;font-size: 12px;
+}
+.top span{
+    cursor: pointer;
+}
+.magR_35{
+    margin-right: 35px;
+}
+.magR_75{
+    margin-right: 75px;
+}
+.top_r span{
+    margin-right: 30px;line-height: 37px;
+}
+/*导航*/
+.nav_MinH{
+    min-height: 81px;background-color: #282f37;border-radius: 0px;border: none;margin-bottom: 0px;
+}
+.nav_R{
+    margin-top: 0px;
+}
+.magT_8{
+    margin-top: 8px;
+}
+.nav_MinH .container .nav_R a{
+    font-weight: bold;color: #fff;
+}
+.nav_MinH .container .nav_R a:hover,.nav_MinH .container .nav_R a:focus{
+    color: silver;
+}
+/*banner*/
+.banner{
+    background-color: #f14949;padding-top: 62px;padding-bottom: 50px;color: #fff;
+}
+.banner h1{
+    line-height: 36px;padding-bottom: 0;padding-top: 60px;margin: 0;
+}
+.banner p{
+    font-size: 14px;line-height: 20px;padding-top: 10px;
+}
+/*Some Amazing Features*/
+.some h3{
+    padding-top: 80px;color: #f1464c;
+}
+.some_text{
+    padding-top: 40px;line-height: 23px;padding-bottom: 90px;
+}
+.some h5{
+    font-size: 18px;padding-left: 15px;
+}
+.Recent_nav{
+    border-radius: 4px;margin-right: 15px;
+}
+.some .Recent_nav li{
+    border: 1px solid #f14949;margin-left: 0;margin-right: 0;
+}
+.some .Recent_nav li a{
+    color:#646464 ;line-height: 1;
+}
+.some .Recent_nav li.active a,.some .Recent_nav li.active a:hover,.some .Recent_nav li.active a:focus{
+    background-color:#f14949 ;border-radius: 0;padding: 10px 18px;color: #fff;
+}
+.some .Recent_nav li:nth-child(1){
+    border-radius:4px 0 0 4px;
+}
+.some .Recent_nav li:nth-child(4){
+    border-radius:0 4px 4px 0;
+}
+.pad_40{
+    padding-top: 40px;padding-bottom: 100px;
+}
+.Recent_txt{
+    background-color: #ebebeb;cursor: pointer;border: none;max-width: 281px;max-height:241px;transition: transform .5s;
+}
+.Recent_txt p{
+    margin-bottom: 6px;
+}
+.Recent_txt .magB_0{
+    margin-bottom: 0;
+}
+.Recent_txt.active{
+    background-color: #f14949;color: #fff;
+}
+.Recent_txt.active p{
+    color: #fff;
+}
+.Recent_txt:hover{
+    transform: scale(1.1,1.1);
+}
+/*welcome*/
+.welcome{
+   color: #fff;position: relative;padding-right: 0px;padding-left: 0px;
+}
+.welcome_bg{
+    position: absolute;width: 100%;z-index: -1;height: 100%;
+}
+.welcome h3{
+    font-size: 40px;padding-top: 50px;
+}
+.welcome p{
+    font-size: 16px;line-height: 22px;
+}
+.welcome_btn{
+    background-color: transparent;margin-top: 30px;margin-bottom: 74px;border-color: #fff;border-width: 3px;padding-left: 30px;
+    padding-right: 30px;color: #fff;transition: transform .5s;
+}
+.welcome_btn:hover{
+    border-color: #fff;background-color: transparent;color: #fff;transform: scale(1.8,1.2);
+}
+/*Latest News*/
+.news{
+    padding-top: 109px;
+}
+.news_icon{
+    width: 54px;height: 54px;border-radius: 6px;background-color: #f14948;
+}
+.news_icon span{
+    color: #fff;font-size: 30px;margin-top: 12px;
+}
+.news_text{
+    padding-left: 12px;
+}
+.news_text h4{
+    padding-top: 10px;color: #f14948;margin-bottom: 8px;
+}
+.news_bottom h3{
+    padding-bottom: 20px;
+}
+.news_bottom h4{
+    padding-top: 10px;padding-bottom: 10px;line-height: 25px;
+}
+.news_bottom p{
+    color: #9f8080;line-height: 23px;
+}
+.news_bottom .media{
+    padding-bottom: 42px;
+}
+.news_bottom img{
+    border-top: 7px solid #f04a4a;
+}
+.news_bottom a{
+    position: relative;
+}
+.news_bottom span{
+    position: absolute;display: block;width: 50px;height: 48px;background-color: #f04a4a;color: #fff;top: -150px;left: 10px;font-size: 20px;text-align: center;
+}
+.news_bottom span small{
+    display: block;font-size: 12px;margin-bottom: -5px;margin-top: 5px;
+}
+.Service_head{
+    cursor: pointer;
+}
+.Service_head .panel-heading{
+    background-color: #d3d3d3;
+}
+.Service_head .active {
+    background-color: #f04a4a;color: #fff;
+}
+.Service_head h4{
+    padding: 0;line-height: 30px;
+}
+.Service_head h4 a{
+    padding-left: 30px;
+}
+.Service_head h4 strong{
+    position: absolute;top: 0px;left: 0;
+}
+/*slideshow*/
+.slideshow{
+    background-color: #f14949;padding-top: 55px;color: #fff;
+}
+.slideshow h3{
+    padding-bottom: 30px;
+}
+.slideshow p{
+    line-height: 20px;padding-bottom: 50px;
+}
+.slideshow img{
+    display: inline-block;
+}
+.slideshow .name{
+    line-height: 80px;font-size: 24px;
+}
+.pagination{
+    top: -30px;text-align: right;left: 68%;
+}
+.pagination li,.pagination .active{
+    width: 14px;height: 14px;
+}
+.pagination .active{
+    width: 16px;height: 16px;
+}
+/*floot*/
+.floot{
+    background-color: #282f37;color: #fff;padding-bottom: 70px;padding-top: 70px;
+}
+.floot p:nth-of-type(1){
+    font-size: 16px;
+}
+.floot p:nth-of-type(2){
+    font-size: 18px;
+}
+.floot img{
+    display: inline-block;margin-bottom: 56px;
+}
+/*返回顶部*/
+.backtoTop{
+    position: fixed;right: 94px;bottom: 76px;width: 40px;height: 40px;background-color: #f14949;border-radius: 50%;color: #fff;
+    cursor: pointer;top: auto;text-align: center;line-height: 40px;
+}
+/*媒体查询当屏幕宽度大于980px*/
+@media (min-width: 768px) {
+    /*导航左侧的导航栏*/
+    .nav_R{
+        margin-top: 20px;
+    }
+    /*banner里面的文字*/
+    .banner h1{
+        line-height: 66px;padding-bottom: 0;padding-top: 90px;margin: 0;
+    }
+    .banner p{
+        font-size: 16px;line-height: 27px;padding-top: 10px;padding-right: 60px;
+    }
+}
